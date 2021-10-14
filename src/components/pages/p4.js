@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Blog() {
+export default function P4() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1>Project 4</h1>
       <p>
-        BLOG
+        Here is my project 4
       </p>
     </div>
   );
