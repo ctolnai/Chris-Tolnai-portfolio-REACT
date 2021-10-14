@@ -1,6 +1,10 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap/';
 
+const styles = {
+
+}
+
 function NavBar({currentPage, handlePageChange}){ 
     return (
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -20,7 +24,7 @@ function NavBar({currentPage, handlePageChange}){
       <Nav.Link href="#About" onClick={() => handlePageChange('About')}>About Me</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">My Resume</Nav.Link>
+      <Nav.Link href="/assets/resume.pdf" target="_blank" download>My Resume</Nav.Link>
       <Nav.Link eventKey={2} href="#memes">
         Dank memes
       </Nav.Link>
