@@ -17,3 +17,12 @@
     bottom: 0;
     left: 0;
 }
+
+.btn {
+    margin: .5 rem;
+}
+
+.card-header {
+    font-size: 2rem;
+
+}

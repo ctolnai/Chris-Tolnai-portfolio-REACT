@@ -1,5 +1,4 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavBar from "./components/NavBar";
@@ -9,6 +8,7 @@ import P1 from "./components/pages/p1";
 import P2 from "./components/pages/p2";
 import P3 from "./components/pages/p3";
 import P4 from "./components/pages/p4";
+import Projects from "./components/pages/projects";
 import Contact from "./components/pages/Contact";
 
 function App() {
@@ -37,6 +37,9 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact/>
+            </Route>
+            <Route exact path="/projects">
+              <Projects/>
             </Route>
           </div>
           <Footer />
