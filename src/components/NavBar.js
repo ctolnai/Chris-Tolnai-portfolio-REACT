@@ -20,16 +20,16 @@ function NavBar() {
                 <Link to={"/projects"}>All Projects</Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/p1">
-                <Link to={"/p1"}>Project 1</Link>
+                <Link to={"/p1"}>ParkSmart</Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/p2">
-                <Link to={"/p2"}>Project 2</Link>
+                <Link to={"/p2"}>Work Day Scheduler</Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/p3">
-                <Link to={"/p3"}>Project 3</Link>
+                <Link to={"/p3"}>Note Taker</Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/p4">
-                <Link to={"/p4"}>Project 4</Link>
+                <Link to={"/p4"}>Job Search</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#features">Features</Nav.Link>
