@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.Container{
+    background-image: './public/assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg';
+}
+
 .forms{
     padding: 1rem
 }

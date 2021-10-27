@@ -32,7 +32,9 @@ function NavBar() {
                 <Link to={"/p4"}>Job Search</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link >
+              <Link to={"/myskills"}>My Skills</Link>
+            </Nav.Link>
             <Nav.Link >
               <Link to={"/about"}>About Me</Link>
             </Nav.Link>

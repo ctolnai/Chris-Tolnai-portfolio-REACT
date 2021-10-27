@@ -41,6 +41,9 @@ function App() {
             <Route exact path="/projects">
               <Projects/>
             </Route>
+            <Route exact path="/myskills">
+              <Projects/>
+            </Route>
           </div>
           <Footer />
         </div>

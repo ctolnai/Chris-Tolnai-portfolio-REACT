@@ -7,13 +7,13 @@ export default function Footer() {
 
 <Nav className="justify-content-end footer" activeKey="/home">
     <Nav.Item>
-      <Nav.Link href="/home">Active</Nav.Link>
+      <Nav.Link href="mailto:christolnai@gmail.com">Email</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
+      <Nav.Link href="https://www.linkedin.com/in/christolnai/" target="_blank">LinkedIn</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
+      <Nav.Link href="https://github.com/ctolnai" target="_blank">Github</Nav.Link>
     </Nav.Item>
   </Nav>
 
