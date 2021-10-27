@@ -8,6 +8,7 @@ import P1 from "./components/pages/p1";
 import P2 from "./components/pages/p2";
 import P3 from "./components/pages/p3";
 import P4 from "./components/pages/p4";
+import P5 from "./components/pages/p5";
 import Projects from "./components/pages/projects";
 import Contact from "./components/pages/Contact";
 
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route exact path="/p4">
               <P4/>
+            </Route>
+            <Route exact path="/p5">
+              <P5/>
             </Route>
             <Route exact path="/contact">
               <Contact/>

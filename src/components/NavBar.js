@@ -16,9 +16,9 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/projects">
+              {/* <NavDropdown.Item href="#action/projects">
                 <Link to={"/projects"}>All Projects</Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item href="#action/p1">
                 <Link to={"/p1"}>ParkSmart</Link>
               </NavDropdown.Item>
@@ -30,6 +30,9 @@ function NavBar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/p4">
                 <Link to={"/p4"}>Job Search</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/p5">
+                <Link to={"/p5"}>News For You</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link >
