@@ -49,7 +49,7 @@ function App() {
               <Projects/>
             </Route>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
   );

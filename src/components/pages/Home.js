@@ -2,11 +2,12 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        HERE IS THE HOMEPAGE
-      </p>
+    <div class='text'>
+      Hello, I'm 
+      <span class="highlight"> Chris Tolnai</span>
+      ,
+      <br></br>
+      and I'm a full-stack web developer.
     </div>
   );
-}
+} 
