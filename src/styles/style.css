@@ -2,6 +2,10 @@
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .text{
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 75px;
@@ -24,7 +28,6 @@
 
 .navbar-brand {
     font-size: 36px
-
 }
 
 .footer {
@@ -44,6 +47,7 @@
 
 .navbar{
     max-height: 15vh;
+    
 }
 
 .button {
@@ -85,4 +89,22 @@
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .me-2{
+      margin: 0px
+  }
+
+  .resume{
+    text-align: center;
+  }
+
+  .navbar-nav{
+      max-height: 46px;
+  }
+
+  .contact{
+      padding: 0px;
+      max-height: 46px;
+      margin: 0px;
   }

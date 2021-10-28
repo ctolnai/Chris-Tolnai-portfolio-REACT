@@ -17,7 +17,7 @@ function App() {
         <div className="flex-column justify-flex-start min-100-vh">
           <NavBar />
           <div className="container">
-            <Route exact path="/home">
+            <Route exact path="/">
               <Home/>
             </Route>
             <Route exact path="/about">

@@ -1,5 +1,5 @@
-import {React, useState, render} from 'react';
-import { Navbar, Nav, NavDropdown, Container, Button, Offcanvas } from 'react-bootstrap/';
+import {React} from 'react';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap/';
 import { Link } from 'react-router-dom';
 import Footer from "./Footer";
 
@@ -13,7 +13,7 @@ function NavBar() {
           <Link to={"/home"}>
             Chris Tolnai </Link>
         </Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{textDecoration:'none'}}/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
@@ -42,10 +42,13 @@ function NavBar() {
             <Nav.Link >
               <Link to={"/about"}>About Me</Link>
             </Nav.Link>
+            <Nav.Link style={{textDecoration:'none'}} className="resume" href="/assets/resume.pdf" target="_blank" download>
+              My Resume
+              </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/assets/resume.pdf" target="_blank" download>My Resume</Nav.Link>
-            <Nav.Link href="#Contact">
+            
+            <Nav.Link className="contact" href="#Contact">
               <Footer />
             </Nav.Link>
           </Nav>

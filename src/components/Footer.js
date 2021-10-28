@@ -1,5 +1,5 @@
 import {React, useState } from 'react';
-import { Navbar, Nav, NavDropdown, Container, Button, Offcanvas } from 'react-bootstrap/';
+import { Button, Offcanvas } from 'react-bootstrap/';
 
 
 function OffCanvasExample({ name, ...props }) {
@@ -11,7 +11,7 @@ function OffCanvasExample({ name, ...props }) {
   return (
     <>
       <Button variant="primary" onClick={handleShow} className="me-2">
-        {name}
+        Contact Me
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
