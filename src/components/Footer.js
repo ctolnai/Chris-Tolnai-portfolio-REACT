@@ -1,21 +1,39 @@
-import React from 'react';
-import {Nav} from 'react-bootstrap/';
+import {React, useState } from 'react';
+import { Navbar, Nav, NavDropdown, Container, Button, Offcanvas } from 'react-bootstrap/';
 
 
-export default function Footer() {
+function OffCanvasExample({ name, ...props }) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
-
-<Nav className="justify-content-end footer" activeKey="/home">
-    <Nav.Item>
-      <Nav.Link href="mailto:christolnai@gmail.com">Email</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="https://www.linkedin.com/in/christolnai/" target="_blank">LinkedIn</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link href="https://github.com/ctolnai" target="_blank">Github</Nav.Link>
-    </Nav.Item>
-  </Nav>
-
-);
+    <>
+      <Button variant="primary" onClick={handleShow} className="me-2">
+        {name}
+      </Button>
+      <Offcanvas show={show} onHide={handleClose} {...props}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Contact Me</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
+  );
 }
+
+function Footer() {
+  return (
+    <>
+      {['bottom'].map((placement, idx) => (
+        <OffCanvasExample key={idx} placement={placement} name={placement} />
+      ))}
+    </>
+  );
+}
+
+export default Footer;

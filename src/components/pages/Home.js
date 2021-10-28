@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'react-bootstrap/';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       ,
       <br></br>
       and I'm a full-stack web developer.
+      <Button className= "button" variant="outline-secondary"><span>Let's Go </span></Button>
     </div>
   );
 } 

@@ -1,6 +1,7 @@
-import React from 'react';
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap/';
+import {React, useState, render} from 'react';
+import { Navbar, Nav, NavDropdown, Container, Button, Offcanvas } from 'react-bootstrap/';
 import { Link } from 'react-router-dom';
+import Footer from "./Footer";
 
 
 
@@ -45,7 +46,7 @@ function NavBar() {
           <Nav>
             <Nav.Link href="/assets/resume.pdf" target="_blank" download>My Resume</Nav.Link>
             <Nav.Link href="#Contact">
-              <Link to={"/contact"}>Contact Me</Link>
+              <Footer />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -55,3 +56,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
