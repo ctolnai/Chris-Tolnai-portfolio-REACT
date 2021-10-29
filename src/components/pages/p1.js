@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, Row, Col, ListGroup } from 'react-bootstrap/';
+import { Card, Button, Row, ListGroup } from 'react-bootstrap/';
 
 const cardstyle={
     maxWidth: '30rem', 
