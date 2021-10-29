@@ -10,14 +10,15 @@ import P4 from "./components/pages/p4";
 import P5 from "./components/pages/p5";
 import Projects from "./components/pages/projects";
 import Contact from "./components/pages/Contact";
+import background from "./styles/background2.png";
 
 function App() {
     return (
       <Router>
-        <div className="flex-column justify-flex-start min-100-vh">
+        <div style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundOpactiy:"75%"}} className="flex-column justify-flex-start min-100-vh">
           <NavBar />
           <div className="container">
-            <Route exact path="/">
+            <Route exact path="/home">
               <Home/>
             </Route>
             <Route exact path="/about">

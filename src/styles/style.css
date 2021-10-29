@@ -2,6 +2,10 @@
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+.nav-link{
+    padding:0px;
+}
+
 a:hover{
     text-decoration: none;
 }
@@ -13,7 +17,7 @@ a:hover{
 
 .container{
     font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .highlight{
@@ -92,11 +96,13 @@ a:hover{
   }
 
   .me-2{
-      margin: 0px
+      margin: 0px;
+      font-size: 28px;
   }
 
   .resume{
     text-align: center;
+    color: rgb(29, 119, 157);
   }
 
   .navbar-nav{
@@ -107,4 +113,8 @@ a:hover{
       padding: 0px;
       max-height: 46px;
       margin: 0px;
+  }
+
+  i{
+      padding: 5px;
   }
