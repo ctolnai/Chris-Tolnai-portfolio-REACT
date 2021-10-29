@@ -120,10 +120,15 @@ a:hover{
   }
 
   .card{
-    min-height: 360px;
+    min-height: 275px;
     padding: 0;
   }
 
-  .card-img-top{
+  /* .card-img-top{
     height: 175px;
+  } */
+
+  .card-title{
+      text-align: center;
+      margin-top: 30px;
   }
