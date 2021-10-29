@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap/';
+import { Card, Button, Row } from 'react-bootstrap/';
 
 export default function P4() {
   return (
-    <div>
+    <Row>
       <Card className="text-center">
         <Card.Header>Job Search</Card.Header>
         <Card.Img variant="top" src="./assets/images/jobsearch.png" />
@@ -12,6 +12,6 @@ export default function P4() {
           <Button variant="primary" href="https://kimberly-rodriguez.github.io/job-search/" target="_blank">Deployed Application</Button>
         </Card.Body>
       </Card>
-    </div>
+    </Row>
   );
 }

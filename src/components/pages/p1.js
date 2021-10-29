@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap/';
+import { Card, Button, Row } from 'react-bootstrap/';
 
 export default function P1() {
   return (
-    <div>
+    <Row>
       <Card className="text-center">
         <Card.Header>ParkSmart</Card.Header>
         <Card.Img variant="top" src="./assets/images/parksmart.png" />
@@ -12,6 +12,6 @@ export default function P1() {
           <Button variant="primary" href="https://parksmart2021.herokuapp.com/" target="_blank">Deployed Application</Button>
         </Card.Body>
       </Card>
-    </div>
+    </Row>
   );
 }
