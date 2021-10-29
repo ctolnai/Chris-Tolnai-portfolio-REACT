@@ -1,66 +1,75 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap/';
+import { Row, Col, Card } from 'react-bootstrap/';
 
 export default function Projects() {
   return (
-<Carousel variant="dark">
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="./assets/images/parksmart.png"
-      alt="parksmart"
-    />
-    <Carousel.Caption>
-      <h3>ParkSmart</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="./assets/images/workdayscheduler.png"
-      alt="workdayscheduler"
-    />
-
-    <Carousel.Caption>
-      <h3>Work Day Scheduler</h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Note Taker</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Job Search</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>News For You</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+    <Row xs={1} md={2} className="g-4">
+      <Col>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>ParkSmart</Card.Title>
+            <Card.Text>
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit longer.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Work Day Scheduler</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Col>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Note Taker</Card.Title>
+            <Card.Text>
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit longer.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>Job Search</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Col>
+        <Card>
+          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit longer.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Card>
+        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Body>
+          <Card.Title>News For You</Card.Title>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Row>
   );
 }
