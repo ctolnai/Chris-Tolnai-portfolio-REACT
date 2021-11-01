@@ -54,12 +54,12 @@ export default function Projects() {
           </Card.Body>
         </Card>
         </Link>
-      <Card>
+      {/* <Card>
         <Card.Img style={style} variant="top" src="./assets/images/newsforyou.png" />
         <Card.Body>
           <Card.Title>News For You</Card.Title>
         </Card.Body>
-      </Card>
+      </Card> */}
       </Col>
     </Row>
   );
