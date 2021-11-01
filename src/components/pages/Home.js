@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from 'react-bootstrap/';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       ,
       <br></br>
       and I'm a full-stack web developer.
-      <Button className="button" variant="outline-secondary"><span>Meet Me </span></Button>
+      <Link className="button" variant="outline-secondary" to={"/about"}><span>Meet Me </span></Link>
     </div>
   );
 } 
