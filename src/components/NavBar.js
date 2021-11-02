@@ -35,7 +35,7 @@ function NavBar() {
                 <Link to={"/p5"}>News For You</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link style={{textDecoration:'none'}} className="resume" href="/assets/resume.pdf" target="_blank" download>
+            <Nav.Link style={{textDecoration:'none'}} className="resume" href="/assets/myresume.pdf" target="_blank" download>
               My Resume
               </Nav.Link>
           </Nav>
