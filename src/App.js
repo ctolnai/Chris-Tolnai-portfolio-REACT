@@ -12,12 +12,12 @@ import Projects from "./components/pages/projects";
 import Contact from "./components/pages/Contact";
 import background from "./styles/background2.png";
 
-// style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover',}}
+
 
 function App() {
     return (
       <Router>
-        <div className="flex-column justify-flex-start min-100-vh">
+        <div className="flex-column justify-flex-start min-100-vh" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover',}}>
           <NavBar />
           <div className="container">
             <Route exact path="/">
