@@ -1,6 +1,6 @@
 This is my project portfolio built using REACT
 
-https://ctolnai.github.io/Chris-Tolnai-portfolio-REACT/
+https://tranquil-fortress-87311.herokuapp.com/
 
 # Getting Started with Create React App
 
